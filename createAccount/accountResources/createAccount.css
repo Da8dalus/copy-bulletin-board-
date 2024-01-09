@@ -1,0 +1,85 @@
+
+body{
+    background-color: #274e13;
+}
+.flexbox-container{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+}
+  
+.flexbox-item{
+    width: 100%;
+    margin: 10px;
+    border: black;
+    border-radius: .2em;
+    background-color: rgb(221, 221, 221);
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.flexbox-item-1 {
+    font-size: 15px;
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.text-input {
+    width: 100%;
+    padding-inline: 2px;
+    margin-bottom: 10px;
+}
+
+.value {
+    width: 70%;
+    margin-inline: 15%;
+}
+
+.field {
+    width: 50%;
+    margin-left: 15%;
+}
+
+#save {
+    float: right;
+    margin-right: 14%;
+    cursor: pointer;
+}
+
+#educator {
+    width: 100%;
+    margin-inline: auto;
+}
+
+#accountForm {
+    width: 50%;
+    margin: auto;
+}
+
+#username {
+    width: 100%;
+    margin-inline: auto;
+}
+
+#email {
+    width: 100%;
+    margin-inline: auto;
+}
+
+#password {
+    width: 100%;
+    margin-inline: auto;
+}
+
+#confirm {
+    width: 100%;
+    margin-inline: auto;
+}
+

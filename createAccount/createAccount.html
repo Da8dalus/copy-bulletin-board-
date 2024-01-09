@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Account Creation</title>
+   <meta charset="UTF-8">
+
+   <link href="createAccount.css" rel="stylesheet" type="text/css">
+   <link href="../resources/websiteStyle.css" rel="stylesheet" type="text/css">
+   <script src="./accountResources/account.js" rel="javascript"></script>
+   <script src="../resources/jquery-3.1.1.min.js" rel="javascript"></script>
+</head>
+
+<body>
+   <div class="flexbox-container">
+      <div class="flexbox-item flexbox-item-1">
+      <form id="Login" action="#" method="post" onsubmit="return createAccount(this);">
+         <div class="formData">
+            <h1>Create Account</h1>
+            <label class="field">Username:</label>
+
+            <div class="value"><input type="text" size="60" value="" name="username" id="username" /></div>
+
+            <label class="field">Email:</label>
+            <div class="value"><input type="text" size="60" value="" name="email" id="email" /></div>
+
+            <label class="field">Password:</label>
+            <div class="value"><input type="text" size="60" value="" name="password" id="password" /></div>
+
+            <label class="field">Confirm Password:</label>
+            <div class="value"><input type="text" size="60" value="" name="confirm" id="confirm" /></div>
+
+            <label class="field">Are you an educator(y/n):</label>
+            <div class="value"><input type="text" size="60" value="" name="educator" id="educator" /></div>
+
+            <input type="submit" value="Create" id="save" name="save" />
+
+         </div>
+         </div>
+      </fieldset>
+      </form>
+   </div>
+
+
+</body>
+
+</html>
+
+

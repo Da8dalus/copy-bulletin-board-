@@ -1,0 +1,37 @@
+
+#title {
+   text-align: center;
+   font-size: 2.2em;
+   text-decoration: underline;
+}
+
+.postTitle {
+   font-size: 1.8em;
+   list-style: none;
+   padding: 1.5%;
+}
+
+.postContent{
+   margin-left: 2.5%;
+   list-style: none;
+   font-size: 1.5em;
+   padding-left: 1.5%;
+   padding-right: 1.5%;
+   padding-bottom: 1.5%;
+}
+
+.postImg {
+   list-style: none;
+}
+
+.onePost{
+   border-style: solid;
+   border-radius:25px;
+}
+
+.postPic {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 1.5%;
+}

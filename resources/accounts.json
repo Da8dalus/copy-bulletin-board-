@@ -1,0 +1,30 @@
+{ 
+   "parent":[
+   {
+      "username":"Harry",
+      "email":"hargrh@rpi.edu",
+      "password":"Hargreaves",
+      "classes":["Calculus", "ITWS", "Physics"]
+   },
+   {
+      "username":"Jonathan",
+      "email":"obasj2@rpi.edu",
+      "password":"Obas",
+      "classes":["Calculus","DS","ITWS", "Micro"]
+   }
+   ],
+   "educator":[
+   {
+      "username":"Lavina",
+      "email":"dennyl2@rpi.edu",
+      "password":"Denny",
+      "classes":["DS","Micro", "Physics"]
+   },
+   {
+      "username":"KC",
+      "email":"kcs@rpi.edu",
+      "password":"Shashwot",
+      "classes":["ITWS", "Calculus"]
+   }
+   ]
+}

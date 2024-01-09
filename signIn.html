@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Sign In</title>
+   <meta charset="UTF-8">
+
+   <link href="" rel="stylesheet" type="text/css">
+   <link href="resources/websiteStyle.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" href="signin.css" rel="stylesheet" type="text/css ">
+   <script src="resources/jquery-3.1.1.min.js"></script>
+   <script src="resources/signIn.js" rel="javascript"></script>
+</head>
+<body>
+
+<!-- Maybe instead of making two different homepages, we can use the javascript if statements to determine 
+what kind of account the user has and display the proper elements of the page according to that. -->
+<div class="flexbox-container">
+   <div class="flexbox-item flexbox-item-1">
+      <form id="Login" action="#" method="post" onsubmit="return signIn(this);">
+         <div class="formData">
+            <h1>Welcome to <br>
+            The Bulletin Board!</h1>
+            <label class="field">Username:</label>
+            <div class="value"><input type="text" size="60" value="" name="username" id="username" /></div>
+            <label class="field">Password:</label>
+            <div class="value"><input type="text" size="60" value="" name="password" id="password" /></div>
+            <input type="submit" value="Login" id="loginForm" name="#loginForm" />
+         </div>
+      </form>
+      <button><a id="create" href="createAccount/createAccount.html" class="createAccount">Create Account</a></button>
+   </div>
+
+</body>
+
+</html>

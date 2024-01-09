@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Create Class</title>
+   <meta charset="UTF-8">
+
+   <link href="" rel="stylesheet" type="text/css">
+   <link href="../teacherResources/teacher.css" rel="stylesheet" type="text/css">
+   <link href="../../resources/websiteStyle.css" rel="stylesheet" type="text/css">
+   <script src="../../resources/jquery-3.1.1.min.js" rel="javascript"></script>
+   <script src="./resources/createClass.js" rel="javascript"></script>
+   <script src="../../resources/websiteJS.js" rel="javascript"></script>
+</head>
+
+<body>
+
+   <div id="bodyBlock">
+      <form id="addForm" name="addForm" action="#" method="post" onsubmit="return createClass(this);">
+         <fieldset class="outer-box">
+            <h1>Create Class</h1>
+            <div class="formData">
+               <label class="field" for="Name">Class Name:</label>
+               <div class="value">
+                  <input type="text" size="60" value="" name="Name" id="Name" />
+               </div>
+               <label class="field" for="comments">Description:</label>
+               <div class="value">
+                  <textarea rows="4" cols="40" name="comments" id="comments"></textarea>
+               </div>
+               <input type="submit" value="Create" id="create" name="create" />
+            </div>
+         </fieldset>
+      </form>
+   </div>
+
+</body>
+
+</html>

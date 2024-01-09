@@ -1,0 +1,40 @@
+.outer-box{
+    width: 500px;
+    height: 300px;
+}
+
+.field {
+    width: 50%;
+    margin-left: 15%;
+}
+
+#firstName {
+    width: 100%;
+    margin: auto;
+}
+
+#comments {
+    width: 100%;
+    margin: auto;
+}
+
+#create {
+    float: right;
+    margin-right: 14%;
+    margin-bottom: 30px;
+}
+
+#post {
+    float: right;
+    margin-right: 14%;
+    margin-bottom: 30px;
+}
+
+#selectFileLabel {
+    margin-left: 15%;
+}
+
+#fileInput {
+    margin-top: 10px;
+    margin-left: 15%;
+}

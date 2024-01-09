@@ -1,0 +1,53 @@
+{
+   "ITWS":[
+   {
+      "comment":"Please print out and hand in permission slips to the main office by 12/04/2023!",
+      "title":"Commerce Plaza Permission Slips",
+      "attachment":"../resources/sampleHandout2.pdf",
+      "img":"../resources/samplePic.jpg"
+   },
+   {
+      "comment":"Sample comment",
+      "title":"itws",
+      "attachment":"",
+      "img":""
+   }],
+   "Calculus":[
+      {
+         "comment":"Sample Comment",
+         "title":"calc",
+         "attachment":"https://lms.rpi.edu/ultra/course",
+         "img":"../resources/possibleLogo.jpg"
+      },
+      {
+         "comment":"Sample Comment 2",
+         "title":"calc 2",
+         "attachment":"https://lms.rpi.edu/ultra/course",
+         "img":"../resources/possibleLogo.jpg"
+      }],
+   "DS":[
+      {
+         "comment":"Sample Comment",
+         "title":"ds",
+         "attachment":"https://lms.rpi.edu/ultra/course",
+         "img":"../resources/possibleLogo.jpg"
+      },
+      {
+         "comment":"Sample Comment 2",
+         "title":"ds 2",         "attachment":"https://lms.rpi.edu/ultra/course",
+         "img":"../resources/possibleLogo.jpg"
+      }],
+   "Micro":[
+      {
+         "comment":"Sample Comment",
+         "title":"micro",
+         "attachment":"https://lms.rpi.edu/ultra/course",
+         "img":"../resources/possibleLogo.jpg"
+      },
+      {
+         "comment":"Sample Comment 2",
+         "title":"micro 2",
+         "attachment":"https://lms.rpi.edu/ultra/course",
+         "img":""
+      }]
+}

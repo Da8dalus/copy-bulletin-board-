@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Join Class</title>
+   <meta charset="UTF-8">
+
+   <link href="" rel="stylesheet" type="text/css">
+   <link href="../parentResources/accountStyle.css" rel="stylesheet" type="text/css">
+   <link href="../../resources/websiteStyle.css" rel="stylesheet" type="text/css">
+   <script src="" rel="javascript"></script>
+   <script src="../../resources/websiteJS.js" rel="javascript"></script>
+</head>
+
+<body>
+
+   <div class="outer-box" id="bodyBlock">
+      <h1>Join Class</h1>
+
+      <form id="addForm" name="addForm" action="#" method="post" onsubmit="return joinClass(this);">
+         <fieldset>
+
+            <div class="formData">
+
+               <label class="field" for="classCode">Class Code:</label>
+               <div class="value">
+                  <input type="text" size="60" value="" name="classCode" id="classCode" />
+               </div>
+
+               <div id="errorMsg"></div>
+
+               <input type="submit" value="Submit" id="submit" name="submit" />
+
+            </div>
+         </fieldset>
+      </form>
+   </div>
+
+</body>
+
+</html>

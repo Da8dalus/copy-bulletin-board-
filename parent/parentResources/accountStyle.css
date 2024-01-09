@@ -1,0 +1,37 @@
+body {
+    background-color: #274e13;
+    margin: 0;
+    display: flex;
+    height: 100vh; 
+}
+
+.outer-box {
+    background-color: rgb(221, 221, 221);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    width: 500px;
+    height: 165px;
+    padding: 10px;
+
+    border-radius: .2em;
+    display: flex;
+}
+
+.addForm {
+    border: none;
+}
+
+#submit {
+    margin-top: 15px;
+    float: right;
+}
+
+
+
+
+

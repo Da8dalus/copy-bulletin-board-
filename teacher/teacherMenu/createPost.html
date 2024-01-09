@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Create Post</title>
+   <meta charset="UTF-8">
+
+   <link href="../teacherResources/teacher.css" rel="stylesheet" type="text/css">
+   <link href="../../resources/websiteStyle.css" rel="stylesheet" type="text/css">
+   <script src="./../../resources/jquery-3.1.1.min.js" rel="javascript"></script>
+   <script src="./resources/createPost.js" rel="javascript"></script>
+</head>
+
+<body>
+   <div id="bodyBlock">
+      <form id="addForm" name="addForm" action="#" method="post" onsubmit="return createPost(this);">
+         <fieldset class="outer-box">
+            <h1>Create Post</h1>
+            <div class="formData">
+               <label class="field">Title:</label>
+               <div class="value"><input type="text" size="60" value="" name="firstName" id="firstName" /></div>
+
+               <label class="field">Description:</label>
+               <div class="value">
+                  <textarea rows="4" cols="40" name="comments" id="comments"></textarea>
+               </div>
+               <div class="value"></div>
+               <label id="selectFileLabel" for="fileInput">Select a file:</label>
+               <input type="file" id="fileInput" name="fileInput">
+
+               <input type="submit" value="Post" id="post" name="post" />
+               
+               <form class="select-file" action="/upload" method="post" enctype="multipart/form-data">
+                  
+               </form>
+            </div>
+         </fieldset>
+         <a href="../teacherHome.html"> <button 
+         >Back to Feed
+      </button></a>
+      </form>
+   </div>
+</body>
+
+</html>
